@@ -72,7 +72,7 @@ namespace EmployeeApi.Repos
                 var employee = await _context.Employees.FindAsync(id);
                 if (employee is not null)
                 {
-                    employee.active = false;
+                    employee.IsActive = false;
                     await _context.SaveChangesAsync();
                 }
             }
