@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using EmployeeApi.models;
 using EmployeeApi.Repos.Interfaces;
 using EmployeeApi.Repos;
+using Microsoft.Extensions.Logging;
 namespace EmployeeApi.Tests.Repos
 {
     public class EmployeeRepositoryTests
